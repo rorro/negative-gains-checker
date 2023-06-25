@@ -1,5 +1,6 @@
 {
   "name": "negative-gains-checker",
+  "homepage": "https://rorro.github.io/negative-gains-checker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
