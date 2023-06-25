@@ -38,13 +38,24 @@ function App() {
       sendToast(womResult, ToastType.Error);
       return;
     }
-    setWomPlayerDetails(womResult);
+
+    if (!womResult.latestSnapshot) {
+      sendToast('This player does not have a latestSnapshot', ToastType.Error);
+      return;
+    }
 
     const osrsResult = await fetchOSRSDetails(player.newName, womResult.type);
     if (typeof osrsResult === 'string') {
       sendToast(osrsResult, ToastType.Error);
       return;
     }
+
+    if (!osrsResult.skills) {
+      sendToast('Error fetching OSRS details', ToastType.Error);
+      return;
+    }
+
+    setWomPlayerDetails(womResult);
     setOsrsPlayerDetails(osrsResult);
   }
 

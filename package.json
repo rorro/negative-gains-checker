@@ -1,6 +1,5 @@
 {
   "name": "negative-gains-checker",
-  "homepage": "https://rorro.github.io/negative-gains-checker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
