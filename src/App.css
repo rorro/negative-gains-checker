@@ -1,0 +1,136 @@
+*,
+body {
+  font-family: lato;
+}
+
+body {
+  background: #121212;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.wrapper {
+  display: block;
+  overflow: hidden;
+}
+
+.tables {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name-input-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 0.2em;
+  background: #1e1e1e;
+  color: #fff;
+  padding: 0.2em;
+  width: 100%;
+}
+
+.old-name,
+.new-name {
+  color: #fff;
+  background: none;
+  border: none;
+  border-radius: 0.2em;
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 1px solid #2f2f2f;
+  max-width: 30%;
+}
+
+.old-name:focus,
+.new-name:focus {
+  outline: none;
+}
+
+.name-input-box button {
+  border-radius: 5px;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+  background: #2980b9;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  text-shadow: 2px 1px 2px #113e5c;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: pre;
+  max-width: 30%;
+  height: 33px;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.header tr th:first-child,
+.header tr th:last-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.header-logo {
+  width: 25px;
+  height: 25px;
+}
+
+.table {
+  margin: 10px 0 10px 10px;
+  border-spacing: 0;
+  padding: 0;
+  border-radius: 5px;
+  background: #1e1e1e;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.35);
+}
+
+.header th {
+  padding: 10px 13px;
+  background: #272727;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-align: left;
+}
+
+.table td {
+  padding: 10px;
+  font-size: 0.8em;
+  color: #9c9c9c;
+}
+
+.table tr:hover {
+  background: #27272790;
+}
+
+.primary {
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.metric-icon {
+  margin-right: 5px;
+  margin-bottom: -4px;
+}
+
+#selection {
+  max-width: 150px;
+  width: 100%;
+  font-size: 0.9em;
+  cursor: pointer;
+  color: #fff;
+  background: #1e1e1e;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.35);
+  height: 30px;
+  padding: 8px 10px 8px 15px;
+  margin-top: 10px;
+  justify-self: center;
+  font-family: lato;
+}
