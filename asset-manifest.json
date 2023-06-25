@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/negative-gains-checker/static/css/main.9ebd8a3b.css",
+    "main.js": "/negative-gains-checker/static/js/main.7dd8754d.js",
+    "static/js/787.8e72685e.chunk.js": "/negative-gains-checker/static/js/787.8e72685e.chunk.js",
+    "static/media/osrs_logo.png": "/negative-gains-checker/static/media/osrs_logo.76219844f16438c30ff4.png",
+    "index.html": "/negative-gains-checker/index.html",
+    "main.9ebd8a3b.css.map": "/negative-gains-checker/static/css/main.9ebd8a3b.css.map",
+    "main.7dd8754d.js.map": "/negative-gains-checker/static/js/main.7dd8754d.js.map",
+    "787.8e72685e.chunk.js.map": "/negative-gains-checker/static/js/787.8e72685e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ebd8a3b.css",
+    "static/js/main.7dd8754d.js"
+  ]
+}
